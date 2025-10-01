@@ -16,12 +16,13 @@ function generateResume($data) {
     <h2>Resume Generator</h2>
     <?php
     $resumeData = [
-        'name' => 'Chirag',
-        'email' => 'chirag@example.com',
+        'name' => 'Karan',
+        'email' => 'Karan@example.com',
         'experience' => '1 years as Frontend Developer',
         'skills' => ['PHP', 'JavaScript', 'python']
     ];
     echo "<pre>" . generateResume($resumeData) . "</pre>";
     ?>
 </body>
+
 </html>
